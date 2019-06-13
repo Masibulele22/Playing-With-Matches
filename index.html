@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://fonts.googleapis.com/css?family=Berkshire+Swash|Boogaloo|Bungee+Inline|Carter+One|Gochi+Hand|Grand+Hotel|Leckerli+One|Lobster|Merienda|Merienda+One|Nova+Mono|Oleo+Script|Rancho|Righteous|Yesteryear" rel="stylesheet">
+	<title>The title of my page</title>
+
+	<style type="text/css">
+    /* CSS goes here */
+    body {
+        background-color: blue;
+    }
+    .nine { 
+        font-family: 'Rancho';
+        font-size: 60px;
+        color: yellow;
+        background-color: red;
+    }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HTML goes here -->
+    <div class="nine">9</div>
+    <script type="text/javascript">
+    var nineElement = document.querySelector(".nine");
+		// JavaScript code goes here at the bottom
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * Math.floor(max));
+        }
+        nineElement.innerHTML = (getRandomInt(9));
+        
+    </script>
+    
+</body>
+</html>
